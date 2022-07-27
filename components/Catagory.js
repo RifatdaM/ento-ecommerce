@@ -1,5 +1,5 @@
 import React from "react";
-import CatagoryCard from "./catagoryCard";
+import CatagoryCard from "./CatagoryCard";
 import Image from "next/image";
 import Cactus from "../public/10.png";
 import Bed from "../public/4.png";
