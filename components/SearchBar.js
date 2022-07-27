@@ -6,7 +6,7 @@ function SearchBar() {
       <div className=" relative">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-8 absolute top-0 bottom-0 my-auto left-3"
+          className="h-6 absolute top-0 bottom-0 my-auto left-3"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -21,7 +21,7 @@ function SearchBar() {
         <input
           type="text"
           placeholder="Search products..."
-          className="w-1/2 py-3 pl-12 pr-4 text-Gray-3 bg-transparent outline-none"
+          className="w-full py-3 pl-12 xl:pl-12 pr-4 text-Gray-3 bg-transparent outline-none"
         />
       </div>
     </form>
