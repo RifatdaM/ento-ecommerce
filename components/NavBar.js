@@ -4,17 +4,15 @@ import { SearchIcon, MenuAlt4Icon, XIcon } from "@heroicons/react/outline";
 import IconItem from "./IconItem";
 import MenuMobile from "./Menu/MenuMobile";
 import DesktopMenu from "./Menu/DesktopMenu";
-import Dropdown from "./Dropdown";
 
 function NavBar() {
   // for navbar
   const [isOpen, setIsOpen] = useState(false);
   return (
     // Main Nav Container
-    <nav className="p-4 bg-Blue-light w-full fixed z-10">
+    <nav className="p-4 bg-Blue-light w-full z-10">
       {/*actual menu desktop menu */}
       <DesktopMenu />
-      <Dropdown/>
 
       {/* mobile Nav bar */}
       <div className="flex justify-between items-center lg:hidden">
