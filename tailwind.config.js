@@ -38,6 +38,7 @@ module.exports = {
         "Yellow-light": "#fef7e5",
         "Pink-havy": "#f498bd",
         "Pink-light": "#fdeef4",
+        "Star-light": "#fac5c3",
       },
     },
   },

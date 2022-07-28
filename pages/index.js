@@ -2,6 +2,7 @@ import Head from "next/head";
 import Catagory from "../components/Catagory";
 import HeroSection from "../components/HeroSection";
 import NavBar from "../components/NavBar";
+import NewArrivals from "../components/NewArrivals";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
      <NavBar/>
      <HeroSection/>
      <Catagory/>
+     <NewArrivals/>
     </div>
   );
 }
