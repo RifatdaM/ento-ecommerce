@@ -9,7 +9,7 @@ import {
 
 function WeOffer() {
   return (
-    <div className="container py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-12">
+    <div className="container py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-12">
       <WeOfferReusableComp
         Icon={ShoppingBagIcon}
         title="Shop Online"
