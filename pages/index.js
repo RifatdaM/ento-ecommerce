@@ -3,6 +3,7 @@ import Catagory from "../components/Catagory";
 import HeroSection from "../components/HeroSection";
 import NavBar from "../components/NavBar";
 import NewArrivals from "../components/NewArrivals";
+import WeOffer from "../components/WeOffer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
      <HeroSection/>
      <Catagory/>
      <NewArrivals/>
+     <WeOffer/>
     </div>
   );
 }
