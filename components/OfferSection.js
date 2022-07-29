@@ -3,7 +3,7 @@ import React from "react";
 
 function OfferSection() {
   return (
-    <div className="bg-[url('../public/hero2.png')] h-[600px] bg-cover bg-no-repeat bg-center">
+    <div className="bg-[url('/hero2.png')] h-[600px] bg-cover bg-no-repeat bg-center">
       <div className="bg-gradient-to-b from-Gray-3 text-white">
         <div className="container py-12 flex flex-col items-center">
           <p className="text-base md:text-xl text-center">
