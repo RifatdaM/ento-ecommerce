@@ -12,7 +12,7 @@ function ProductCard({
   return (
     <div>
       {/* Product Image */}
-      <div className=" bg-white flex justify-center items-center p-8 h-[200px] md:h-[300px]">
+      <div className=" bg-white flex justify-center items-center p-8 h-[200px] md:h-[300px] overflow-hidden">
         <Image src={productImage} alt="name" className="object-contain" />
       </div>
       {/* Product Name */}

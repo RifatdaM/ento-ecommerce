@@ -17,7 +17,6 @@ function HeroSection() {
         slidesPerView={1}
         loop={true}
         autoplay={true}
-        autoplaySpeed={5000}
         pagination={true}
         modules={[Pagination]}
         className="bg-Blue-light w-screen mySwiper"
