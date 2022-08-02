@@ -30,9 +30,9 @@ function HappyClientSection() {
               spaceBetween: 30,
             },
             1000: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 30,
-              slidesPerView: 3,
+              slidesPerGroup: 4,
             },
           }}
           spaceBetween={20}
@@ -40,6 +40,118 @@ function HappyClientSection() {
           modules={[Pagination]}
           className="mySwiper"
         >
+          <SwiperSlide>
+            <div className="bg-white p-8">
+              <ClientCard
+                rating="4.2"
+                title="Great quality"
+                description="Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s,"
+                image={dp2}
+                name="Rakibul Hasan"
+                company="Wear N Adorn"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-white p-8">
+              <ClientCard
+                rating="4.2"
+                title="Great quality"
+                description="Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s,"
+                image={dp1}
+                name="Rakibul Hasan"
+                company="Wear N Adorn"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-white p-8">
+              <ClientCard
+                rating="4.2"
+                title="Great quality"
+                description="Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s,"
+                image={dp2}
+                name="Rakibul Hasan"
+                company="Wear N Adorn"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-white p-8">
+              <ClientCard
+                rating="4.2"
+                title="Great quality"
+                description="Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s,"
+                image={dp1}
+                name="Rakibul Hasan"
+                company="Wear N Adorn"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-white p-8">
+              <ClientCard
+                rating="4.2"
+                title="Great quality"
+                description="Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s,"
+                image={dp2}
+                name="Rakibul Hasan"
+                company="Wear N Adorn"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-white p-8">
+              <ClientCard
+                rating="4.2"
+                title="Great quality"
+                description="Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s,"
+                image={dp1}
+                name="Rakibul Hasan"
+                company="Wear N Adorn"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-white p-8">
+              <ClientCard
+                rating="4.2"
+                title="Great quality"
+                description="Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s,"
+                image={dp2}
+                name="Rakibul Hasan"
+                company="Wear N Adorn"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-white p-8">
+              <ClientCard
+                rating="4.2"
+                title="Great quality"
+                description="Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s,"
+                image={dp1}
+                name="Rakibul Hasan"
+                company="Wear N Adorn"
+              />
+            </div>
+          </SwiperSlide>
           <SwiperSlide>
             <div className="bg-white p-8">
               <ClientCard

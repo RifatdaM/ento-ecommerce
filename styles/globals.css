@@ -14,3 +14,6 @@
 .catagoryCard {
   @apply flex flex-col justify-between;
 }
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}

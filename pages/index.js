@@ -1,5 +1,6 @@
 import Head from "next/head";
 import BestSeller from "../components/BestSeller";
+import BlogSection from "../components/BlogSection";
 import Catagory from "../components/Catagory";
 import DealComponent from "../components/DealComponent";
 import HappyClientSection from "../components/HappyClientSection";
@@ -8,6 +9,7 @@ import LogoSection from "../components/LogoSection";
 import NavBar from "../components/NavBar";
 import NewArrivals from "../components/NewArrivals";
 import OfferSection from "../components/OfferSection";
+import SubscribeComponent from "../components/SubscribeComponent";
 import WeOffer from "../components/WeOffer";
 
 export default function Home() {
@@ -26,8 +28,10 @@ export default function Home() {
       <OfferSection />
       <BestSeller />
       <LogoSection />
-      <DealComponent/>
-      <HappyClientSection/>
+      <DealComponent />
+      <HappyClientSection />
+      <BlogSection />
+      <SubscribeComponent/>
     </div>
   );
 }

@@ -21,7 +21,7 @@ function SearchBar() {
         <input
           type="text"
           placeholder="Search products..."
-          className="w-full py-3 pl-12 xl:pl-12 pr-4 text-Gray-3 bg-transparent outline-none"
+          className="w-full py-3 pl-12 xl:pl-12 pr-4 text-black placeholder:text-Gray-2 bg-transparent outline-none"
         />
       </div>
     </form>
