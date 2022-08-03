@@ -3,6 +3,8 @@ import BestSeller from "../components/BestSeller";
 import BlogSection from "../components/BlogSection";
 import Catagory from "../components/Catagory";
 import DealComponent from "../components/DealComponent";
+import Footer from "../components/Footer";
+import FooterBanner from "../components/FooterBanner";
 import HappyClientSection from "../components/HappyClientSection";
 import HeroSection from "../components/HeroSection";
 import LogoSection from "../components/LogoSection";
@@ -32,6 +34,8 @@ export default function Home() {
       <HappyClientSection />
       <BlogSection />
       <SubscribeComponent/>
+      <FooterBanner/>
+      <Footer/>
     </div>
   );
 }
