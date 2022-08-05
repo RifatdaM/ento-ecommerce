@@ -17,11 +17,11 @@ function DesktopMenu() {
             Home
           </Link>
           <Link
-            to="catagory"
-            activeClass="catagory"
+            to="category"
+            activeClass="category"
             className="flex items-center gap-1 cursor-pointer"
           >
-            Catagory
+            Category
             <IconItem Icon={ChevronDownIcon} />
           </Link>
           <Link

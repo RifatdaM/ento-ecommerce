@@ -1,7 +1,7 @@
 import Head from "next/head";
 import BestSeller from "../components/BestSeller";
 import BlogSection from "../components/BlogSection";
-import Catagory from "../components/Catagory";
+import Category from "../components/Category";
 import DealComponent from "../components/DealComponent";
 import Footer from "../components/Footer";
 import FooterBanner from "../components/FooterBanner";
@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <NavBar />
       <HeroSection />
-      <Catagory />
+      <Category />
       <NewArrivals />
       <WeOffer />
       <OfferSection />

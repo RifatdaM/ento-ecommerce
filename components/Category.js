@@ -6,7 +6,7 @@ import Bed from "../public/4.png";
 import Lamp from "../public/3.png";
 import Sofa from "../public/5.png";
 import Table from "../public/7.png";
-function Catagory() {
+function Category() {
   return (
     <div className="container my-8 lg:h-[600px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 lg:auto-rows-[minmax(40px,_auto)] gap-8 lg:gap-4">
       <div className=" bg-Green-light flex catagoryCard lg:row-span-5 lg:col-span-2">
@@ -33,4 +33,4 @@ function Catagory() {
   );
 }
 
-export default Catagory;
+export default Category;
