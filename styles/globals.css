@@ -17,3 +17,12 @@
 .swiper-pagination-bullet-active {
   background-color: #000 !important;
 }
+/*move swiper pagination on top to image */
+/*.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+    bottom: -10px !important;
+}*/

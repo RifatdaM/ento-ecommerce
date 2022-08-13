@@ -1,13 +1,13 @@
-import React from "react";
+import { useState } from "react";
 import IconItem from "../IconItem";
 import SearchBar from "../SearchBar";
 import { UserIcon, HeartIcon, ShoppingBagIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
-import { Link } from "react-scroll";
-import Dropdown from "./Dropdown";
-
+import Link from "next/link";
 
 function DesktopMenu() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="hidden lg:flex justify-between items-center xl:container">
       {/* Search container */}
@@ -15,44 +15,35 @@ function DesktopMenu() {
 
       {/* Menu Container */}
       <ul className="flex gap-4 2xl:gap-8 text-sm items-center font-medium whitespace-nowrap">
-        <Link to="home" activeClass="home" className=" cursor-pointer">
-          Home
+        <Link href="/" className=" cursor-pointer">
+          <a>Home</a>
         </Link>
-        <Link to="category" activeClass="category" className="cursor-pointer">
-          <Dropdown title='Category'/>
+        <Link href="/category">
+          <a className="flex items-center gap-1 cursor-pointer focus:ring-0 active:ring-0 ring-0">
+            Category <IconItem Icon={ChevronDownIcon} />
+          </a>
         </Link>
-        <Link
-          to="deals"
-          activeClass="deals"
-          className="flex items-center gap-1 cursor-pointer"
-        >
-          Deals
-          <IconItem Icon={ChevronDownIcon} />
+        <Link href="/deals">
+          <a className="flex items-center gap-1 cursor-pointer focus:ring-0 active:ring-0 ring-0">
+            Deals <IconItem Icon={ChevronDownIcon} />
+          </a>
         </Link>
-        <Link
-          to="home"
-          activeClass="home"
-          className="text-2xl 2xl:text-3xl px-0 2xl:px-4 cursor-pointer"
-        >
-          ento.
+        <Link href="/">
+          <a className="text-2xl 2xl:text-3xl px-0 2xl:px-4 cursor-pointer focus:ring-0 active:ring-0 ring-0">
+            ento.
+          </a>
         </Link>
-        <Link
-          to="trackOrder"
-          activeClass="trackOrder"
-          className="cursor-pointer"
-        >
-          Track Order
+        <Link href="/" className=" cursor-pointer focus:ring-0 active:ring-0 ring-0">
+          <a>Track Order</a>
         </Link>
-        <Link
-          to="about"
-          activeClass="about"
-          className="flex items-center gap-1 cursor-pointer"
-        >
-          About
-          <IconItem Icon={ChevronDownIcon} />
+        <Link href="/about">
+          <a className="flex items-center gap-1 cursor-pointer focus:ring-0 active:ring-0 ring-0">
+            About
+            <IconItem Icon={ChevronDownIcon} />
+          </a>
         </Link>
-        <Link to="support" activeClass="support" className="cursor-pointer">
-          Support
+        <Link href="/support" className=" cursor-pointer focus:ring-0 active:ring-0 ring-0">
+          <a>Support</a>
         </Link>
       </ul>
 
